@@ -1,1 +1,1 @@
-# Read, Write operations using global buffer
+# READ,WRITE OPERATIONS USING GLOBAL BUFFER
