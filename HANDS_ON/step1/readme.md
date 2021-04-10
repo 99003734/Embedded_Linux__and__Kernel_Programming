@@ -1,1 +1,1 @@
-# Register char driver
+# REGISTER CHAR DRIVER
