@@ -286,6 +286,6 @@ module_exit(psuedo_exit);
 
 MODULE_LICENSE("GPL");
 
-MODULE_AUTHOR("SUVRADEEP");
+MODULE_AUTHOR("Akbar");
 
 MODULE_DESCRIPTION("Creating device file");
