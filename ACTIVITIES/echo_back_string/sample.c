@@ -4,10 +4,10 @@
 
 SYSCALL_DEFINE2(mytestcall,char *,str1,char*,str2)
 {
-	char str[50];
+	char str[100];
 	int i,len=0;
 	
-	copy_from_user(str, str1, 50);
+	copy_from_user(str, str1, 100);
 	for(i=0;str[i]!='\0';i++)
 	{
 		len++;
