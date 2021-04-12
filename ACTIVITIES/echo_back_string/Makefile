@@ -1,2 +1,7 @@
+obj-m += string.o
+KSRC = /home/user/workspace/packages/linux-4.14.227
+
 all:
-	arm-linux-gnueabi-gcc string.c -o pidppid
+	make -C ${KSRC} M=${PWD} modules ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+clean:
+	make -C ${KSRC} M=${PWD} clean
