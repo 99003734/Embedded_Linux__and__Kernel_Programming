@@ -2,7 +2,7 @@
 #include <linux/kernel.h>
 #include <linux/uaccess.h>
 
-SYSCALL_DEFINE2(mytestcall,char*,str1,char*,str2)
+SYSCALL_DEFINE2(secondtestcall,char*,str1,char*,str2)
 {
 	char str[100];
 	int i,len=0;
