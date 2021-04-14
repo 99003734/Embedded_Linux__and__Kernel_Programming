@@ -2,7 +2,7 @@
 #include <linux/kernel.h>
 #include <linux/uaccess.h>
 
-SYSCALL_DEFINE0(mytestcall)
+SYSCALL_DEFINE0(thirdtestcall)
 {	struct task_struct* task_list;
 	for_each_process(task_list) 
 {
