@@ -4,7 +4,7 @@
 #include <linux/sched.h>
 
 
-SYSCALL_DEFINE0(mytestfour)
+SYSCALL_DEFINE0(fourthtestcall)
 {
 	int n;
    struct task_struct *task = current; // getting global current pointer
